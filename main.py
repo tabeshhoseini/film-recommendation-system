@@ -63,6 +63,7 @@ similarities = pd.DataFrame(
     similarities.items(),
     columns=["user_name", "similarity"]
 )
+similarities = similarities[similarities['similarity'] > 0.1]
 
 similarities = similarities.sort_values(by=["similarity"],ascending=False)
 
