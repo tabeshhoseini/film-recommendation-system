@@ -4,5 +4,5 @@ watched.csv
 userRatings.csv
 .~lock.films.csv#
 .venv
-.ipynb_checkpoints
 test.ipynb
+.ipynb_checkpoints
