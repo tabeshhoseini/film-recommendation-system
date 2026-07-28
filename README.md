@@ -2,6 +2,10 @@
 
 A simple movie recommendation system built with **Python** and **Pandas** using a user-based collaborative filtering approach.
 
+## Letterboxd dataset
+
+the dataset used in this project is from letterboxd.
+
 ## Overview
 
 This project recommends movies to a target user by finding other users with similar movie preferences. Similarity is calculated using the **Pearson Correlation Coefficient**, and recommendations are generated from highly rated movies of the most similar users.
