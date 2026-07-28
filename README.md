@@ -40,7 +40,5 @@ This project recommends movies to a target user by finding other users with simi
 
 ## License
 
-This project is intended for educational purposes.
-
-You can make it even more professional by adding a **Sample Output** section with a screenshot of your recommendations once the project is finished. That makes GitHub projects much more appealing to recruiters.
+This project is intended for educational purposes. 
 
