@@ -94,5 +94,7 @@ target_films = target_films.sort_values(['weighted_average' , 'similarity'], asc
 target_films = target_films.reset_index()
 target_films = pd.merge(target_films, films_df , on="film_id" , how="inner")
 
-print(target_films[['film_name', 'year', 'weighted_average' , 'similarity']].head(20))
+target_films = target_films[~target_films['film_name'].isin(input_watched['film_name'].tolist())]
+
+print(target_films[['film_name', 'year', 'weighted_average' , 'similarity']].head(50))
 
